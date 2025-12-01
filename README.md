@@ -30,18 +30,17 @@ Learning online can be overwhelming:
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/ai-learning-coach.git
+git clone https://github.com/nirmalya8/ai-learning-coach.git
 cd ai-learning-coach
 
 # Create and activate virtual environment
 python3 -m venv .venv
 source .venv/bin/activate  # macOS/Linux
-.venv\Scripts\activate     # Windows
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Set your Groq API key, Google CSE ID and key, and youtube API key
+# Set your Groq API key, Google CSE ID and key, and youtube API key in the .env file
 
 Run
 streamlit app.py
