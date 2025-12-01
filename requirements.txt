@@ -1,0 +1,8 @@
+streamlit
+langgraph
+google-generativeai
+requests
+beautifulsoup4
+praw
+python-dotenv
+groq
